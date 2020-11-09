@@ -3,6 +3,7 @@
 
 <head>
     <title>DEVSOC 21</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
@@ -11,8 +12,8 @@
         crossorigin="anonymous" />
 </head>
 
-<body id="menu" class="body-page fp-responsive fp-viewing-home" style="overflow: visible; height: initial;">
-    <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right scrolled">
+<body id="menu" class="body-page fp-responsive" style="overflow: visible; height: initial;">
+    <header class="page-header navbar page-header-alpha scrolled-white menu-right topmenu-right">
         <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
             <span class="menu-icon menu-icon-random">
                 <span class="bars">
@@ -61,19 +62,19 @@
                 <ul class="navbar-nav" id="qmenu">
                     <li class="nav-item" data-menuanchor="home">
                         <a href="#home">
-                            <i class="icon fa fa-home">home</i>
+                            <i class="icon fa fa-home"></i>
                             <span class="txt">Home</span>
                         </a>
                     </li>
                     <li class="nav-item" data-menuanchor="about">
                         <a href="#about">
-                            <i class="icon fas fa-info-circle">home</i>
+                            <i class="icon fas fa-info-circle"></i>
                             <span class="txt">About</span>
                         </a>
                     </li>
                     <li class="nav-item" data-menuanchor="speakers">
                         <a href="#speakers">
-                            <i class="icon fa fa-home">home</i>
+                            <i class="icon fas fa-address-book"></i>
                             <span class="txt">Speakers</span>
                         </a>
                     </li>
@@ -109,14 +110,12 @@
     </div>
     <main class="page-main page-fullpage main-anim fullpage-wrapper" id="mainpage"
         style="height: 100%; position: relative; transform: translate3d(0px, 0px, 0px); transition: all 0ms ease 0s;">
-
-
         <div class="section section-home fullscreen-md fp-auto-height-responsive main-home sec1 fp-section anim"
             data-section="home" data-anchor="home">
             <div class="section-wrapper center-vh dir-col">
                 <div class="section-content anim mt-80">
                     <div class="title-desc">
-                        <img class="devsoc-21" src="./assets/devsoc21.png" alt="DevSoc 21">
+                        <img class="devsoc-21" src="./assets/devsoc21-white.png" alt="DevSoc 21">
                         <h4 class="anim-2">Developer's Sprint of Code.</h4>
                         <h6 class="anim-3">Coders aren't born, they're made.</h6>
                     </div>
@@ -128,19 +127,19 @@
                             </button></a>
                     </div>
                     <div class="col-12 title-desc mt-5">
-                        <h3 style="font-size: 40px; color: #3A88F3;font-weight: bold;">Event Starts</h3>
+                        <h3 style="font-size: 36px; color: #3A88F3;font-weight: bold;">Event Starts</h3>
                         <div class="clock">
-                            <div>
-                                <div class="count" id="day-count">134</div>Days
+                            <div class="day-count">
+                                <div class="count">134</div>Days
                             </div>
-                            <div>
-                                <div class="count" id="hour-count">14</div>Hours
+                            <div class="hour-count">
+                                <div class="count">14</div>Hours
                             </div>
-                            <div>
-                                <div class="count" id="min-count">34</div>Minutes
+                            <div class="min-count">
+                                <div class="count">34</div>Minutes
                             </div>
-                            <div>
-                                <div class="count" id="sec-count">1</div>Seconds
+                            <div class="sec-count">
+                                <div class="count">1</div>Seconds
                             </div>
                         </div>
                     </div>
@@ -152,8 +151,8 @@
             data-anchor="about">
             <div class="section-wrapper center-vh dir-col anim">
                 <div class="section-title text-center">
-                    <h2 class="display-4 display-title anim-2">About DEVSOC<span style="color: rgb(0, 179, 255)">
-                            21</span></h2>
+                    <h2 class="display-2 display-title anim-2">About<span style="color: rgb(0, 179, 255)">
+                            DEVSOC 21</span></h2>
                 </div>
                 <div class="section-content reduced anim text-center">
                     <div class="title-desc anim-3">
@@ -170,14 +169,14 @@
                             prizes,
                             food and drinks!
                         </p>
-                        <h3
-                            style="display: -webkit-flex; -webkit-justify-content: center;  display: flex; justify-content: center;">
+                        <h3 class="display-3"
+                            style="display: -webkit-flex; -webkit-justify-content: center;  display: flex; justify-content: center;color: rgb(0, 179, 255)">
                             Where?</h3>
                         <p
                             style="display: -webkit-flex; -webkit-justify-content: center;  display: flex; justify-content: center;">
                             Anna Auditorium, Vellore Institute of Technology, Vellore</p>
-                        <h3
-                            style="display: -webkit-flex; -webkit-justify-content: center;  display: flex; justify-content: center;">
+                        <h3 class="display-3"
+                            style="color: rgb(0, 179, 255);display: -webkit-flex; -webkit-justify-content: center;  display: flex; justify-content: center;">
                             When?</h3>
                         <p
                             style="display: -webkit-flex; -webkit-justify-content: center;  display: flex; justify-content: center;">
@@ -189,12 +188,12 @@
         </div>
 
         <div class="section section-description fp-auto-height-responsive sec3 fp-section anim" data-section="speakers"
-            data-anchor="speakers" style="height: 617px;">
+            data-anchor="speakers">
             <div class="section-wrapper center-vh dir-col anim">
                 <div class="section-title text-center">
                 </div>
                 <div class="anim-2">
-                    <h2 class="display-4 display-title text-center">Speakers</h2>
+                    <h2 class="display-1 display-title text-center">Speakers</h2>
                 </div>
                 <br>
                 <div class="section-content anim text-center">
@@ -203,406 +202,303 @@
                             <div class="section-content anim">
                                 <div class="images text-center">
                                     <div class="img-avatar-alpha">
-                                        <div class="img-1 shadow">
+                                        <div class="shadow">
                                             <img class="img-fluid"
                                                 src="https://d33wubrfki0l68.cloudfront.net/1666647878f875fb6b4799b858f7678ffc673d18/20aad/img/speakers/ravipratapsingh.svg"
-                                                alt="Ravi Pratap Singh" style="border: none;width: 150px;">
+                                                alt="Ravi Pratap Singh">
                                         </div>
-                                        <div class="legend text-center pos-abs">
-                                            <h5>Ravi Pratap Singh</h5>
-                                            <p class="small">Co-Founder @ Learnnovators</p>
-                                            <div class="icons">
-                                                <a class="icon-btn" href="https://www.linkedin.com/in/ravipratapsingh">
-                                                    <i class="icon fa fa-linkedin" style="font-size: 23px;"></i>
-                                                </a>
-                                            </div>
+                                        <div class="legend text-center mt-3">
+                                            <h3>Ravi Pratap Singh</h3>
+                                            <h4>Co-Founder @ Learnnovators</h4>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 center-vh">
-                            <div class="section-content anim">
-                                <div class="images text-center">
-
-                                    <br>
-                                    <div class="legend text-center pos-abs">
-                                        <div class="btns-action anim-3">
-                                            <a class="btn btn-outline-white btn-round"
-                                                href="https://codechefvit-speakers.typeform.com/to/gnJLgF"
-                                                target="_blank">
-                                                Fill The Speaker Form
-                                            </a>
-                                        </div>
-
-
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
-        <div class="section section-description fp-auto-height-responsive sec4 fp-section anim active fp-completely"
-            data-section="sponsors" data-anchor="sponsors" style="height: 617px;">
+        <div class="section section-description fp-auto-height-responsive sec4 fp-section anim fp-completely"
+            data-section="sponsors" data-anchor="sponsors">
             <div class="section-wrapper center-vh dir-col anim">
                 <div class="section-title text-center">
                 </div>
                 <div class="anim-2">
-                    <h2 class="display-4 display-title text-center">Sponsors</h2>
+                    <h2 class="display-1 display-title text-center">Sponsors</h2>
                 </div>
                 <br>
                 <div class="section-content anim text-center">
-                    <div class="item row justify-content-between">
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                    <div class="row justify-content-center sponsor-scroll scrollable">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://devfolio.co" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/59ece85d2b0b20cf3791be1b6ac9cfec8ff376c7/2ec46/img/logo-devfolio.svg"
-                                            alt="Devfolio"
-                                            style="border: none;background-color: white;padding: 20px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Devfolio"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://matic.network" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/0e496bb96d561c62db54218736c8076d9dd89449/3a042/img/logo-matic.svg"
-                                            alt="Matic"
-                                            style="border: none;background-color: white;padding: 20px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Matic"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://fold.money" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/817b662e83fed98b36bc9eb07b37c18f2099bd34/27435/img/fold-logo.svg"
-                                            alt="Fold"
-                                            style="border: none;background-color: white;padding: 20px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Fold"></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="item row justify-content-between">
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.linode.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/3db3c8e95a374e622123c22c4dd2d7aa4f824614/39fbb/img/linode.svg"
-                                            alt="Linode"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Linode"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://gocrowdera.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/2d105f085f99fb1fba76d76dd78081819d7e1851/15413/img/crowdera.svg"
-                                            alt="Crowdera"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Crowdera"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.wolfram.com/language/" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/2336bb421ac23f3869a1d6eb651abf0f22ade4f6/fc540/img/wolfram.svg"
-                                            alt="Wolfram Language"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Wolfram Language"></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="item row justify-content-between">
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.creative-tim.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/651582efa0c395a7312199f4d7980d64e659d0c8/7eafc/img/creative-tim.svg"
-                                            alt="Creative Tim"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Creative Tim"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://jaleshcruises.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/b24ca60d9aeabdc0258d9b0927f3bc5c2c521d73/92721/img/jalesh.svg"
-                                            alt="Jalesh Cruises"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Jalesh Cruises"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.bugsee.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/efbe62fbdc719a81ccb0631b09be551993797870/0a9b4/img/bugsee-logo.svg"
-                                            alt="Bugsee"
-                                            style="border: none;background-color: white;padding: 7px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Bugsee"></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="item row justify-content-between">
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://balsamiq.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/ba45a27ba00f13656108ed0f9f4b07e60a6c53cd/45db9/img/balsamiq-logo.svg"
-                                            alt="Balsamiq"
-                                            style="border: none;background-color: white;padding: 20px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Balsamiq"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.jetbrains.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/a87adcab478983bdabb9c4137b5f02b4bd0f593d/bf5c8/img/jetbrains.svg"
-                                            alt="JetBrains"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="JetBrains"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.gatsbyjs.org" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/7ff91685b001db7683d391252a6414dbdf27aca0/5564b/img/gatsby.svg"
-                                            alt="GatsbyJS"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="GatsbyJS"></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="item row justify-content-between">
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://www.axure.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/3bed0fe69928af86245c8a2e39d3950504eb5c41/1dd23/img/axure.svg"
-                                            alt="Axure"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Axure"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://rosenfeldmedia.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/d2e56d4549eae54cbe3695ce632436b3b8797340/36648/img/rosenfeld.svg"
-                                            alt="Rosenfeld"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Rosenfeld"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4 col-md-4 center-vh">
+                        <div class="col-12 col-md-6 center-vh">
                             <div class="section-content anim">
                                 <div class="images text-center hoverimg">
                                     <a href="https://codingblocks.com" target="_blank"><img class="img-fluid"
                                             src="https://d33wubrfki0l68.cloudfront.net/708f9e00b191b85be4eab60f65a2e34537c4c58f/acd65/img/coding-blocks.svg"
-                                            alt="Coding Blocks"
-                                            style="border: none;background-color: white;padding: 10px;border-radius: 10px;width: 240px;height: 95px;"></a>
+                                            alt="Coding Blocks"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
 
-        <div class="section section-register fp-auto-height-responsive sec5 fp-section anim" data-section="faqs"
-            data-anchor="faqs" style="height: 617px;">
+        <div class="section section-register fp-auto-height-responsive sec5 fp-section anim"
+            data-section="faqs" data-anchor="faqs">
             <div class="section-wrapper">
                 <div class="anim-2">
-                    <h2 class="display-4 display-title text-center">Frequently
-                        Asked Questions</h2>
-                </div>
-                <div class="section-wrapper twoside anim">
-                    <div class="section-title text-center">
-                    </div>
+                    <h2 class="display-1 display-title text-center">FAQ</h2>
                 </div>
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="bs-example">
-                            <div class="accordion" id="accordionExample">
+                        <div class="faq-scroll scrollable">
+                            <div class="accordion" id="faq-accordian">
                                 <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseOne">
-                                                <p class="text-white d-inline">What's the cost of the hackathon?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingOne" data-toggle="collapse"
+                                        data-target="#collapseOne">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            What's the cost of the hackathon?
+                                        </p>
                                     </div>
                                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">DEVSOC 21 is completely
-                                                free thanks to our sponsors! We'll also provide you with enough swags,
-                                                drinks, meals throughout
-                                                the
-                                                hackathon.</p>
+                                            <p>DEVSOC 21 is completely free thanks to our sponsors! We'll also provide
+                                                you with enough swags, drinks, meals throughout the hackathon.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseTwo">
-                                                <p class="text-white d-inline">What's the application process like?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingTwo" data-toggle="collapse"
+                                        data-target="#collapseTwo">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            What's the application process like?
+                                        </p>
                                     </div>
                                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">You're required to register with us on Devfolio
-                                                where you'll be asked
-                                                for basic details and your resume. We’ll get to know about your
-                                                abilities from your past
-                                                projects, GitHub profile, participation/awards in other
+                                            <p>You're required to register with us on Devfolio where you'll be asked for
+                                                basic details and your resume. We’ll get to know about your abilities
+                                                from your past projects, GitHub profile, participation/awards in other
                                                 hackathons. We'll shortlist teams for the offline hackathon round
                                                 through this.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseThree">
-                                                <p class="text-white d-inline">I'm a fresher and I don't have a good
-                                                    resume. Will I be
-                                                    selected?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingThree" data-toggle="collapse"
+                                        data-target="#collapseThree">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            I'm a fresher and I don't have a good resume. Will I be selected?
+                                        </p>
                                     </div>
                                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">We will be evaluating everyone based on different
-                                                metrics. We'll take
+                                            <p>We will be evaluating everyone based on different metrics. We'll take
                                                 into account if you're a fresher and where you stand amongst your peers.
-                                                If
-                                                you don't have anything technical to add to your resume, feel free to
-                                                add any public speaking
-                                                events or other competitions you've been to.</p>
+                                                If you don't have anything technical to add to your resume, feel free to
+                                                add any public speaking events or other competitions you've been to.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingFour">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseFour">
-                                                <p class="text-white d-inline">What is the venue for the hackathon?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingFour" data-toggle="collapse"
+                                        data-target="#collapseFour">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            What is the venue for the hackathon?
+                                        </p>
                                     </div>
                                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">First Phase of the Hackathon is Online that is
-                                                resume submission. Main
+                                            <p>First Phase of the Hackathon is Online that is resume submission. Main
                                                 event which is from 21st February will be conducted in Anna Auditorium,
                                                 VIT Vellore.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingFive">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseFive">
-                                                <p class="text-white d-inline">Can I participate alone?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingFive" data-toggle="collapse"
+                                        data-target="#collapseFive">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            Can I participate alone?
+                                        </p>
                                     </div>
                                     <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">No! This hackathon is strictly a team competition
-                                                where you can have
-                                                2-5 members in your team. Most teams aim
-                                                to
-                                                have a mix of people with both design and developer skills</p>
+                                            <p>No! This hackathon is strictly a team competition where you can have 2-5
+                                                members in your team. Most teams aim to have a mix of people with both
+                                                design and developer skills</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingSix">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseSix">
-                                                <p class="text-white d-inline">Do I need to have specific qualifications
-                                                    to be a part of the
-                                                    hack?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingSix" data-toggle="collapse"
+                                        data-target="#collapseSix">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            Do I need to have specific qualifications to be a part of the hack?
+                                        </p>
                                     </div>
                                     <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">If you love to code, you're more than welcome to
-                                                participate in the
+                                            <p>If you love to code, you're more than welcome to participate in the
                                                 hackathon.</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingSeven">
-                                        <h2 class="mb-2">
-                                            <a href="#" data-toggle="collapse" data-target="#collapseSeven">
-                                                <p class="text-white d-inline">Does my whole team need to be present at
-                                                    the venue?<img
-                                                        src="https://d33wubrfki0l68.cloudfront.net/8b149183fc6638e6361e712204c20ebc0f069829/80a5f/img/logo2.svg"
-                                                        alt="DEVSOC 21"
-                                                        style="text-decoration: none;position: absolute;right: 20px;height: 30px; width: 30px;background-color: whitesmoke;padding: 2px;border-radius: 50%"
-                                                        class="d-inline mt-2"></p>
-                                            </a>
-                                        </h2>
+                                    <div class="card-header" id="headingSeven" data-toggle="collapse"
+                                        data-target="#collapseSeven">
+                                        <p>
+                                            <span><i class="fa fa-plus"></i></span>
+                                            Does my whole team need to be present at the venue?
+                                        </p>
                                     </div>
                                     <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven"
-                                        data-parent="#accordionExample">
+                                        data-parent="#faq-accordian">
                                         <div class="card-body">
-                                            <p class="text-white pt-3">It's not mandatory for the whole team to be there
-                                                all the time but
+                                            <p>It's not mandatory for the whole team to be there all the time but
                                                 atleast one member should be present during every pitch. The whole team
-                                                needs to be present for
-                                                the final pitch.</p>
+                                                needs to be present for the final pitch.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -610,54 +506,50 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
 
-        <div class="section section-register fp-auto-height-responsive sec6 fp-section anim" data-section="contact"
-            data-anchor="contact" style="height: 617px;">
+        <div class="section section-contact fp-auto-height-responsive sec6 fp-section anim" data-section="contact"
+            data-anchor="contact">
             <div class="section-wrapper">
                 <div class="anim-2">
-                    <h2 class="display-4 display-title text-center">Contact</h2>
+                    <h2 class="display-1 display-title text-center">Contact</h2>
                 </div>
                 <div class="section-wrapper twoside anim">
                     <div class="section-title text-center">
                     </div>
                     <div class="address-container anim-3">
-                        <div class="row">
-                            <div class="col-12 col-md-12 col-lg-4">
-                                <h4>Contact</h4>
-                                <p>Call Kunal: <a href="tel:+917014531554">+91 70145 31554</a></p>
-                                <p>Call Rajat: <a href="tel:+919926817645">+91 99268 17645</a></p>
-                                <p>Email: <a href="mailto:events@codechefvit.com">events@codechefvit.com</a></p>
+                        <div class="row justify-content-center">
+                            <div class="col-12 row">
+                                <button type="button" class="btn btn-social"><a
+                                        href="https://www.facebook.com/devsoccodechefvit" target="_blank"><i
+                                            class="fab fa-facebook"></i></a></button>
+                                <button type="button" class="btn btn-social"><a
+                                        href="https://www.linkedin.com/company/codechef-vit-chapter/about"
+                                        target="_blank"><i class="fab fa-linkedin"></i></a></button>
+                                <button type="button" class="btn btn-social"><a
+                                        href="https://www.instagram.com/devsoc_codechef" target="_blank"><i
+                                            class="fab fa-instagram"></i></a></button>
+                                <button type="button" class="btn btn-social"><a
+                                        href="https://www.twitter.com/codechefvit" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></button>
                             </div>
-                            <div class="col-12 col-md-12 col-lg-4">
-                                <h4>Address</h4>
+                            <div class="col-12 col-md-5 m-2 text-center">
+                                <h4 class="text-blue">Contact</h4>
+                                <p class="mb-0">Call Kunal: <a href="tel:+917014531554">+91 70145 31554</a></p>
+                                <p class="mb-0">Call Rajat: <a href="tel:+919926817645">+91 99268 17645</a></p>
+                                <p class="mb-0">Email: <a
+                                        href="mailto:events@codechefvit.com">events@codechefvit.com</a></p>
+                            </div>
+                            <div class="col-12 col-md-5 m-2 text-center">
+                                <h4 class="text-blue">Address</h4>
                                 <p>
                                     Vellore Institute of Technology, Vellore<br>
                                     Gorbachev Rd, Vellore- 632014<br>
                                     Tamil Nadu, India
                                 </p>
                             </div>
-                            <div class="col-12 col-md-12 col-lg-4 col-sm-12">
-                                <h4>Social Media</h4>
-                                <a href="https://www.facebook.com/devsoccodechefvit" target="_blank"></a><button
-                                    type="button" class="btn btn-social-icon btn-facebook mx-1 my-2"><a
-                                        href="https://www.facebook.com/devsoccodechefvit" target="_blank"><i
-                                            class="fa fa-facebook"></i></a></button>
-                                <a href="https://www.linkedin.com/company/codechef-vit-chapter/about"
-                                    target="_blank"></a><button type="button"
-                                    class="btn btn-social-icon btn-linkedin mx-1 my-2"><a
-                                        href="https://www.linkedin.com/company/codechef-vit-chapter/about"
-                                        target="_blank"><i class="fa fa-linkedin"></i></a></button>
-                                <a href="https://www.instagram.com/devsoc_codechef" target="_blank"><button
-                                        type="button" class="btn btn-social-icon btn-instagram mx-1 my-2"><i
-                                            class="fa fa-instagram"></i></button></a>
-                                <a href="https://www.twitter.com/codechefvit" target="_blank"><button type="button"
-                                        class="btn btn-social-icon btn-twitter mx-1 my-2"><i
-                                            class="fa fa-twitter"></i></button></a>
-                            </div>
+
                         </div>
                         <br>
 
@@ -666,52 +558,33 @@
             </div>
         </div>
 
-        <div class="section section-register fp-auto-height-responsive sec7 fp-section anim" data-section="register"
-            data-anchor="contact" style="height: 617px;">
+        <div class="section section-register fp-auto-height-responsive sec7 fp-section anim"
+            data-section="register" data-anchor="register">
             <div class="section-wrapper">
                 <div class="anim-2">
-                    <h2 class="display-4 display-title text-center">Contact</h2>
+                    <h2 class="display-1 display-title text-center">Register Now</h2>
                 </div>
-                <div class="section-wrapper twoside anim">
-                    <div class="section-title text-center">
-                    </div>
-                    <div class="address-container anim-3">
-                        <div class="row">
-                            <div class="col-12 col-md-12 col-lg-4">
-                                <h4>Contact</h4>
-                                <p>Call Kunal: <a href="tel:+917014531554">+91 70145 31554</a></p>
-                                <p>Call Rajat: <a href="tel:+919926817645">+91 99268 17645</a></p>
-                                <p>Email: <a href="mailto:events@codechefvit.com">events@codechefvit.com</a></p>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-4">
-                                <h4>Address</h4>
-                                <p>
-                                    Vellore Institute of Technology, Vellore<br>
-                                    Gorbachev Rd, Vellore- 632014<br>
-                                    Tamil Nadu, India
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-12 col-lg-4 col-sm-12">
-                                <h4>Social Media</h4>
-                                <a href="https://www.facebook.com/devsoccodechefvit" target="_blank"></a><button
-                                    type="button" class="btn btn-social-icon btn-facebook mx-1 my-2"><a
-                                        href="https://www.facebook.com/devsoccodechefvit" target="_blank"><i
-                                            class="fa fa-facebook"></i></a></button>
-                                <a href="https://www.linkedin.com/company/codechef-vit-chapter/about"
-                                    target="_blank"></a><button type="button"
-                                    class="btn btn-social-icon btn-linkedin mx-1 my-2"><a
-                                        href="https://www.linkedin.com/company/codechef-vit-chapter/about"
-                                        target="_blank"><i class="fa fa-linkedin"></i></a></button>
-                                <a href="https://www.instagram.com/devsoc_codechef" target="_blank"><button
-                                        type="button" class="btn btn-social-icon btn-instagram mx-1 my-2"><i
-                                            class="fa fa-instagram"></i></button></a>
-                                <a href="https://www.twitter.com/codechefvit" target="_blank"><button type="button"
-                                        class="btn btn-social-icon btn-twitter mx-1 my-2"><i
-                                            class="fa fa-twitter"></i></button></a>
-                            </div>
+                <div class="section-title text-center">
+                    <a href="https://forms.gle/iULdhXTfgDV5s8rM7" target="_blank"><button id="devfolio-apply-now"
+                            class="large">Go
+                            to Dashboard
+                        </button></a>
+                </div>
+                <div class="row justify-content-center text-center">
+                    <h3 class="col-12" style="font-size: 44px; color: #FFFFFF;font-weight: bold;">Clock is Ticking</h3>
+                    <div class="clock col-12">
+                        <div class="day-count">
+                            <div class="count">134</div>Days
                         </div>
-                        <br>
-
+                        <div class="hour-count">
+                            <div class="count">14</div>Hours
+                        </div>
+                        <div class="min-count">
+                            <div class="count">34</div>Minutes
+                        </div>
+                        <div class="sec-count">
+                            <div class="count">1</div>Seconds
+                        </div>
                     </div>
                 </div>
             </div>
@@ -751,70 +624,10 @@
             </ul>
         </div>
     </footer>
-    <script src="assets/full.min.js"></script>
+    <script src="assets/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
         integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
         crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-            counter = {};
-            const DevSoc = new Date(); // 25 Feb 6pm IST
-            DevSoc.setFullYear(2021, 1, 25);
-            DevSoc.setHours(18);
-            DevSoc.setMinutes(0);
-            DevSoc.setSeconds(0);
-            const Now = new Date();
-            const Test = DevSoc - Now;
-            console.log(DevSoc, Now, Test)
-            var sec = Math.floor(Test/1000);
-            console.log(sec)
-            counter.days = Math.floor(sec/86400);
-            sec -= counter.days*86400;
-            counter.hours = Math.floor(sec/3600);
-            sec -= counter.hours*3600;
-            counter.min = Math.floor(sec/60);
-            sec -= counter.min*60;
-            counter.sec = sec;
-            console.log(counter);
-            counter.set = () => {
-                $('#day-count').html(counter.days);
-                $('#hour-count').html(counter.hours);
-                $('#min-count').html(counter.min);
-                $('#sec-count').html(counter.sec);
-            }
-            counter.set();
-            counter.tick = () => {
-                if(counter.sec !== 0) {
-                    counter.sec--;
-                    counter.set();
-                    return 0;
-                }
-                if(counter.min !== 0) {
-                    counter.min--;
-                    counter.sec=59;
-                    counter.set();
-                    return 0;
-                }
-                if(counter.hours !== 0) {
-                    counter.hours--;
-                    counter.min=59;
-                    counter.sec=59;
-                    counter.set();
-                    return 0;
-                }
-                if(counter.days !== 0) {
-                    counter.days--;
-                    counter.hours=23;
-                    counter.min=59;
-                    counter.sec=59;
-                    counter.set();
-                    return 0;
-                }
-                clearInterval(Timer);
-            }
-            var Timer = setInterval(() => {counter.tick()}, 1000)
-        });
-    </script>
 </body>
 
 </html>
