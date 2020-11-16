@@ -3,37 +3,34 @@
 
 # DevSoc 2021
 
-> <Subtitle>
-> Include project description here.
+> A website that is meant to act as the portal for the Codechef VIT's annual flagship event, "DevSoc"
 
 ---
-[![DOCS](https://img.shields.io/badge/Documentation-see%20docs-green?style=flat-square&logo=appveyor)](INSERT_LINK_FOR_DOCS_HERE) 
-  [![UI ](https://img.shields.io/badge/User%20Interface-Link%20to%20UI-orange?style=flat-square&logo=appveyor)](INSERT_UI_LINK_HERE)
-
-
+[![UI ](https://img.shields.io/badge/Demo-Link-blue?style=flat-square&logo=appveyor)](https://devsoc.codechefvit.com)
 
 
 ## Features
-- Insert list of features here
-
-
+- A nice intuitive UI based on fullpage.js and bootstrap.
+- Responsive for best experience on every possible screen size.
 
 
 ## Screenshots
-<img src="https://github.com/akshatvg/common-entry-test/raw/master/static/img/header.png" alt="Project Screenshots">
+<img src="https://user-images.githubusercontent.com/24913006/99283067-821c6a00-285a-11eb-8c8d-651144b680a6.png" alt="Project Screenshots">
+<img src="https://user-images.githubusercontent.com/24913006/99283208-b1cb7200-285a-11eb-963d-f2352561cc3b.png" alt="Project Screenshots">
+<img src="https://user-images.githubusercontent.com/24913006/99283355-e8a18800-285a-11eb-9bbb-c8a427aeafc5.png" alt="Project Screenshots">
+
 
 ## Instructions to run
+#### Check out the hosted site devsoc.codechefvit.com
 
 ```
-$ git clone https://github.com/CodeChefVIT/<Project>
-$ cd <Project>
-$ pip3 install -r requirements.txt
-$ python3 manage.py runserver
+$ git clone https://github.com/CodeChefVIT/DevSoc21.git
+$ cd DevSoc21
+$ Run it in your favourite browser
 ```
 
 ## Contributors
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
-- <a href="https://github.com/<Contributor>">Contributor Name</a>
+- <a href="https://github.com/gvinayakgupta">Vinayak Gupta</a>
 
 ## License
 

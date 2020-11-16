@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <title>DEVSOC 21</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -49,6 +50,13 @@
 </head>
 
 <body class="body-page fp-responsive" style="overflow: visible; height: initial;">
+    <div id="preloader">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
     <header class="page-header navbar page-header-alpha menu-right topmenu-right">
         <button class="navbar-toggler site-menu-icon" id="navMenuIcon">
             <span class="menu-icon menu-icon-random">
@@ -420,10 +428,11 @@
                         <div class="faq-scroll scrollable">
                             <div class="accordion" id="faq-accordian">
                                 <div class="card">
-                                    <div class="card-header" id="headingOne" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingOne" data-toggle="collapse"
                                         data-target="#collapseOne">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             What's the cost of the hackathon?
                                         </p>
                                     </div>
@@ -436,10 +445,11 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingTwo" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingTwo" data-toggle="collapse"
                                         data-target="#collapseTwo">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             What's the application process like?
                                         </p>
                                     </div>
@@ -455,10 +465,11 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingThree" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingThree" data-toggle="collapse"
                                         data-target="#collapseThree">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             I'm a fresher and I don't have a good resume. Will I be selected?
                                         </p>
                                     </div>
@@ -473,10 +484,11 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingFour" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingFour" data-toggle="collapse"
                                         data-target="#collapseFour">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             What is the venue for the hackathon?
                                         </p>
                                     </div>
@@ -490,10 +502,11 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingFive" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingFive" data-toggle="collapse"
                                         data-target="#collapseFive">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             Can I participate alone?
                                         </p>
                                     </div>
@@ -507,10 +520,11 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingSix" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingSix" data-toggle="collapse"
                                         data-target="#collapseSix">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             Do I need to have specific qualifications to be a part of the hack?
                                         </p>
                                     </div>
@@ -523,10 +537,11 @@
                                     </div>
                                 </div>
                                 <div class="card">
-                                    <div class="card-header" id="headingSeven" data-toggle="collapse"
+                                    <div class="card-header collapsed" id="headingSeven" data-toggle="collapse"
                                         data-target="#collapseSeven">
                                         <p>
-                                            <span><i class="fa fa-plus"></i></span>
+                                            <span class="plus"><i class="fa fa-plus"></i></span>                                            
+                                            <span class="minus"><i class="fa fa-minus"></i></span>
                                             Does my whole team need to be present at the venue?
                                         </p>
                                     </div>
@@ -659,7 +674,7 @@
 
     <footer id="site-footer" class="page-footer">
         <div class="footer-left">
-            <p>With ♥ by
+            <p>With <span style="color: #F00; font-weight: 700;">♥</span> by
                 <a href="http://www.codechefvit.com" target="_blank">
                     <span class="marked">CodeChef-VIT</span>
                 </a>
@@ -694,6 +709,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
         integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ=="
         crossorigin="anonymous"></script>
+    <script>
+            $('#collapseOne').on('show.bs.collapse', function () {
+                console.log("Hello");
+            })
+
+    </script>
 </body>
 
 </html>
