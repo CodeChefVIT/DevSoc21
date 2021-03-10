@@ -3,14 +3,14 @@
 
 # DevSoc 2021
 
-> A website that is meant to act as the portal for the Codechef VIT's annual flagship event, "DevSoc"
+> The official website for DEVSOC 2021 by CodeChef-VIT.
 
 ---
 [![UI ](https://img.shields.io/badge/Demo-Link-blue?style=flat-square&logo=appveyor)](https://devsoc.codechefvit.com)
 
 
 ## Features
-- A nice intuitive UI based on fullpage.js and bootstrap.
+- A nice intuitive UI based on fullpage.js and Bootstrap.
 - Responsive for best experience on every possible screen size.
 
 
@@ -21,12 +21,10 @@
 
 
 ## Instructions to run
-#### Check out the hosted site devsoc.codechefvit.com
-
 ```
 $ git clone https://github.com/CodeChefVIT/DevSoc21.git
 $ cd DevSoc21
-$ Run it in your favourite browser
+$ live-server
 ```
 
 ## Contributors
