@@ -1,0 +1,25 @@
+.discord
+{
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 100px;
+    background-color: #738adb;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: block;
+    z-index: 999;
+    filter: drop-shadow(0 0 1px #738adb);
+}
+.discord:hover {
+    filter: drop-shadow(0 0 5px #738adb) saturate(1.5);
+}
+@media screen and (max-width: 600px) {
+	.discord {
+        right: 40px;
+        bottom: 40px;
+        z-index: 999;
+        
+	}
+}
